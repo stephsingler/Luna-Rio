@@ -1,7 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
+import testimonialObj from '../data/testimonials';
 
-const Testimonial = () => {
+const Testimonial = (props) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -9,30 +10,34 @@ const Testimonial = () => {
     slidesToShow: 1,
     slidesToScroll: 1
   };
+
+  const renderTestimonials = () => {
+    return (
+      testimonialObj.map((testimonial) => {
+        return (
+          <div className="testimonial-background" key={testimonial.id}>
+            <div className="testimonial-container" style={{display: 'flex'}}>
+              <div className="single-testimonial">
+                "{testimonial.testimonial1}"
+                <h5>{testimonial.author1}</h5>
+              </div>
+              <div className="single-testimonial">
+                "{testimonial.testimonial2}"
+                <h5>{testimonial.author2}</h5>
+              </div>
+              <div className="single-testimonial">
+                "{testimonial.testimonial3}"
+                <h5>{testimonial.author3}</h5>
+              </div>
+            </div>
+          </div>
+        );
+      })
+    );
+  }
   return (
     <Slider {...settings}>
-      <div style={{textAlign: 'center', display: 'flex', marginTop: '120px'}}>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        </div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        </div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        </div>
-      </div>
-      <div style={{textAlign: 'center', display: 'flex', marginTop: '120px'}}>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        </div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        </div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        </div>
-      </div>
+      {renderTestimonials()}
     </Slider>
   );
 }

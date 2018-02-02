@@ -17,7 +17,7 @@ class PropertyDetail extends Component {
               <p>{property.location}</p>
               <h5>BR: {property.bedrooms} | BA: {property.bathrooms} | Sleeps: {property.sleeps}</h5><br/>
               <p>{property.description}</p>
-              <a href="https://www.homeaway.com/" target="_blank">Learn More</a><br />
+              <a href="https://www.homeaway.com/vacation-rental/p3718650" target="_blank">Learn More</a><br />
               <Link to="/Gallery" style={{fontSize: '13px'}}>
                 Photo Gallery
               </Link>

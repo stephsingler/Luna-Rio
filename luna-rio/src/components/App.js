@@ -7,6 +7,9 @@ import Home from './Home';
 import Properties from './Properties';
 import Lifestyle from './Lifestyle';
 import Gallery from './Gallery';
+import Activities from './Activities';
+import Dining from './Dining';
+import Events from './Events'
 
 class App extends Component {
   render() {
@@ -17,6 +20,9 @@ class App extends Component {
             <Route path="/Properties" component={ Properties } />
             <Route path="/Lifestyle" component={ Lifestyle } />
             <Route path="/Gallery" component={ Gallery } />
+            <Route path="/Activities" component={ Activities } />
+            <Route path="/Dining" component={ Dining } />
+            <Route path="/Events" component={ Events } />
           </div>
         </Router>
     );

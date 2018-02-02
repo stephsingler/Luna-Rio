@@ -11,9 +11,9 @@ const Footer = () => {
       </div>
       <div id="footer-bottom">
         <FaPhone className="footer-contact-icon"/>
-        <a href="#">(707) 494-3844</a>
+        <a href="/">(512) 434-0442</a>
         <FaEnvelope className="footer-contact-icon"/>
-        <a href="#">brooke@gmail.com</a>
+        <a href="/">info@emersonrents.com</a>
         <h5>&copy; 2018 Luna Rio. All Rights Reserved</h5>
       </div>
     </div>

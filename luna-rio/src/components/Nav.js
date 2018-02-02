@@ -21,7 +21,7 @@ const Nav = () => {
         </NavLink>
       </li>
       <li>
-        <a href="https://www.homeaway.com/" target="_blank">Book Now</a>
+        <a href="https://www.homeaway.com/vacation-rental/p3718650" target="_blank">Book Now</a>
       </li>
     </ul>
   );
