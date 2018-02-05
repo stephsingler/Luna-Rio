@@ -534,6 +534,9 @@ body {
     margin-right: 3px;
   }
   .nav {
-    margin-left: 5px;
+    margin-left: 40px;
+  }
+  .carousel-caption {
+    margin-left: 60px;
   }
 }
