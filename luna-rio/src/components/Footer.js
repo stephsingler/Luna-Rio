@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer">
       <div id="footer-top">
         <a href="https://www.facebook.com/stephanie.singler.1" target="_blank"><FaFacebookSquare className="social-icon" size={26} /></a>
-        <a href="https://www.instagram.com/" target="_blank"><FaInstagram className="social-icon" size={26} /></a>
+        {/* <a href="https://www.instagram.com/" target="_blank"><FaInstagram className="social-icon" size={26} /></a> */}
       </div>
       <div id="footer-bottom">
         <FaPhone className="footer-contact-icon"/>

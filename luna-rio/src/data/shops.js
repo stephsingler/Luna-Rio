@@ -2,52 +2,42 @@ const shops = [
   {
     id: 0,
     name: "Wimberley Glassworks",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "Wimberley Glassworks is Texas’ premier hand blown glass lighting and art glass studio, creating exclusive glass collections, limited edition vases, sculptures, platters and lighting since 1992. ",
   },
   {
     id: 1,
     name: "Bent Tree Gallery",
-    description: "Bent Tree Gallery is located in the back of Wimberley's main square, the 'Garden Gates Shopping Area'"
+    description: "The gallery features an eclectic mix of representational and expressionistic paintings, photography, assemblages, jewelry and sculpture."
   },
   {
     id: 2,
-    name: "shop 3",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    name: "Rancho Deluxe",
+    description: "A beautiful store featuring rustic and eclectic home furnishings, Texas stars, Hill Country limestone, milagro crosses from Mexico, lamps, furniture, hardware, books, music, children's gifts."
   },
   {
     id: 3,
-    name: "shop 4",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    name: "Art on 12",
+    description: "Art on 12 is Central Texas' largest art gallery. We display the work of 53 local artists in media including oil, acrylic, pastel and watercolor painting as well as mixed media, sculpture and fine art photography."
   },
   {
     id: 4,
-    name: "shop 5",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    name: "Becky's Sunberry Patch",
+    description: "Ladies apparel, sterling silver jewelry, Circle E candles, Sarah's Attic Collectibles, Greenhill music, LifeSighs cards, crosses, bath and body fragrances and gift items from Texas artists."
   },
   {
     id: 5,
-    name: "shop 6",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    name: "Sante Fe Connection",
+    description: "Nestled under a 150 year old oak tree is the Santa Fe Connection. We offer jewelry, pottery, art glass, folk art & unusual gifts for everyone."
   },
   {
     id: 6,
-    name: "shop 7",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    name: "Kiss the Cook Kitchen Essentials",
+    description: "Kiss The Cook is the finest and most complete kitchen store in the Hill Country. Bakeware, cookware, appliances, linens, aprons, cookbooks, hundreds of tools / gadgets."
   },
   {
     id: 7,
-    name: "shop 8",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    name: "Shop the Tree House",
+    description: "Bohemian apparel and decor, rustic accents, unique furniture, vintage one-of-a-kind finds, and humorous and fun gifts."
   },
-  {
-    id: 8,
-    name: "shop 9",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  },
-  {
-    id: 9,
-    name: "shop 10",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  }
 ];
 export default shops;
