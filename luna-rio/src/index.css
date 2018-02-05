@@ -181,9 +181,11 @@ body {
 /*PropertyDetail Comp*/
 .property-detail {
   margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .property-info {
-  float: left;
+  /*float: left;*/
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-top: 50px;
