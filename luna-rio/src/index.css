@@ -466,6 +466,9 @@ body {
   .nav a {
     font-size: 13px;
   }
+  .nav li {
+    background-color: none;
+  }
   .carousel-caption {
     margin-bottom: 250px;
     margin-left: 80px;
@@ -520,9 +523,10 @@ body {
 @media only screen and (max-width: 450px) {
   .carousel-caption {
     margin-left: 90px;
+    margin-bottom: 270px;
   }
   .nav a {
-    font-size: 12px;
+    font-size: 13px;
   }
   .slide-image {
     height: 350px;
@@ -530,7 +534,7 @@ body {
 }
 @media only screen and (max-width: 431px){
   .nav a {
-    font-size: 11px;
+    font-size: 12px;
   }
   .nav li {
     margin-right: 3px;
