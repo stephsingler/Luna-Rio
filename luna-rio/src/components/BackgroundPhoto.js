@@ -18,21 +18,21 @@ const BackgroundPhoto = () => {
             <p><HouseLogo /></p>
             <Nav />
           </div>
-          <img className="d-block img-fluid slide-image" src="https://firebasestorage.googleapis.com/v0/b/luna-rio.appspot.com/o/Photos%2Ffullsizeoutput_86.jpeg?alt=media&token=609edee2-c05f-4c9c-9324-c761306c13ae" alt="First slide"/>
+          <img className="d-block img-fluid slide-image" src={require('../images/LunaRio22.jpg')} alt="First slide"/>
         </div>
         <div className="carousel-item">
           <div className="carousel-caption">
             <p><HouseLogo /></p>
             <Nav />
           </div>
-          <img className="d-block img-fluid slide-image" src="https://firebasestorage.googleapis.com/v0/b/luna-rio.appspot.com/o/Photos%2Ffullsizeoutput_9c.jpeg?alt=media&token=7a9d34a6-3645-4ead-91d3-2da1f8214a92" alt="Second slide"/>
+          <img className="d-block img-fluid slide-image" src={require('../images/LunaRio43.jpg')} alt="Second slide"/>
         </div>
         <div className="carousel-item">
           <div className="carousel-caption">
             <p><HouseLogo /></p>
             <Nav />
           </div>
-          <img className="d-block img-fluid slide-image" src="https://firebasestorage.googleapis.com/v0/b/luna-rio.appspot.com/o/Photos%2Ffullsizeoutput_a2.jpeg?alt=media&token=f47e7ab2-6aac-4b29-903e-586c59cda240" alt="Third slide"/>
+          <img className="d-block img-fluid slide-image" src={require('../images/LunaRio13.jpg')} alt="Third slide"/>
         </div>
       </div>
       <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
