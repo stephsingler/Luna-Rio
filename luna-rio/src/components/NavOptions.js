@@ -35,7 +35,7 @@ const NavOptions = () => {
           </Paper>
           <Paper className="nav-paper" zDepth={5}>
             <Link to="/Lifestyle">
-              <img src={ Wimberley } style={{width: '350px', height: '300px', borderRadius: '3px'}} alt="" />
+              <img src="https://i.imgur.com/y7totpi.jpg" style={{width: '350px', height: '300px', borderRadius: '3px'}} alt="" />
             </Link>
           </Paper>
           <Paper className="nav-paper" zDepth={5}>
