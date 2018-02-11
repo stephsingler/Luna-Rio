@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import Paper from 'material-ui/Paper';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Luna17 from '../images/LunaRio17.jpg';
-import Luna25 from '../images/LunaRio25.jpg';
-import Wimberley from '../images/wimberley.jpg';
 
 const NavOptions = () => {
   return (
@@ -30,7 +28,7 @@ const NavOptions = () => {
         <div className="mui-paper">
           <Paper className="nav-paper" zDepth={5}>
             <Link to="/Properties">
-              <img src={ Luna25 } style={{width: '350px', height: '300px', borderRadius: '3px'}} alt="" />
+              <img src="https://i.imgur.com/vsi0Pfwl.jpg" style={{width: '350px', height: '300px', borderRadius: '3px'}} alt="" />
             </Link>
           </Paper>
           <Paper className="nav-paper" zDepth={5}>

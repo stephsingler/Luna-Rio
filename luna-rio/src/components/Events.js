@@ -5,6 +5,7 @@ import events from '../data/events';
 import Header from './Header';
 import Nav from './Nav';
 import Footer from './Footer';
+import FaStar from "react-icons/lib/fa/star";
 
 const Events = () => {
   const renderEvents = () => {
@@ -13,7 +14,7 @@ const Events = () => {
         return (
           <div className="event" key={event.id}>
             <p>
-              <span className="glyphicon glyphicon-star" style={{color: 'goldenrod'}}></span> &nbsp;
+              <FaStar style={{color: 'goldenrod'}} size={14} /> &nbsp;
               {event.name} - {event.description} &nbsp;
               <a href={event.website} target="_blank">View Website</a>
             </p>

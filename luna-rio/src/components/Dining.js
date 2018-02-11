@@ -6,6 +6,7 @@ import shops from '../data/shops';
 import Header from './Header';
 import Nav from './Nav';
 import Footer from './Footer';
+import FaStar from "react-icons/lib/fa/star";
 
 const Dining = () => {
   const renderDining = () => {
@@ -14,7 +15,7 @@ const Dining = () => {
         return (
           <div className="restaurant-list" key={restaurant.id}>
             <p>
-              <span className="glyphicon glyphicon-star" style={{color: 'goldenrod'}}></span> &nbsp;
+              <FaStar style={{color: 'goldenrod'}} size={14} /> &nbsp;
               {restaurant.name} - {restaurant.description} &nbsp;
               {restaurant.phone}
             </p>
@@ -29,7 +30,7 @@ const Dining = () => {
         return (
           <div className="restaurant-list" key={shop.id}>
             <p>
-              <span className="glyphicon glyphicon-star" style={{color: 'goldenrod'}}></span> &nbsp;
+              <FaStar style={{color: 'goldenrod'}} size={14} /> &nbsp;
               {shop.name} - {shop.description} &nbsp;
             </p>
           </div>
@@ -50,7 +51,7 @@ const Dining = () => {
       <div className="dining-container">
         <img src="https://thetexasiantravels.files.wordpress.com/2014/09/image34.jpg" className="img-left" alt= "" />
         <div className="dining-lists">
-          <h5><strong>Market Days are the first Saturday of each month, April through December.</strong></h5>
+          <h6><strong>Market Days are the first Saturday of each month, April through December.</strong></h6>
           {renderShops()}
         </div>
       </div>

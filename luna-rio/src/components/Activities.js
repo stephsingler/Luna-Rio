@@ -5,6 +5,7 @@ import activities from '../data/activities';
 import Header from './Header';
 import Nav from './Nav';
 import Footer from './Footer';
+import FaStar from "react-icons/lib/fa/star";
 
 const Activities = () => {
   const renderActivities = () => {
@@ -13,7 +14,7 @@ const Activities = () => {
         return (
           <div className="activity" key={activity.id}>
             <p>
-              <span className="glyphicon glyphicon-star" style={{color: 'goldenrod'}}></span> &nbsp;
+              <FaStar style={{color: 'goldenrod'}} size={14} /> &nbsp;
               {activity.name} - {activity.description} &nbsp;
               <a href={activity.website} target="_blank">View Website</a>
             </p>

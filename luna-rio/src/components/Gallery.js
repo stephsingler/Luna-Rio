@@ -25,6 +25,9 @@ const Gallery = () => {
     <div className="gallery">
       <Header />
       <Nav />
+      <div className="tour-link">
+        <a target="_blank" href="http://www.seetheproperty.com/259574">Take a Virtual Tour of the Property!</a>
+      </div>
       <div className="photo-gallery">
         {renderPhotos()}
       </div>
