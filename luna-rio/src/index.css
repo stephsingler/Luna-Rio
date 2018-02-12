@@ -42,7 +42,7 @@ body {
   margin-top: 30px;
   z-index: .999;
   float: left;
-  margin-left: 30px;
+  margin-left: 40px;
   width: 220px;
   height: 130px;
 }
@@ -53,10 +53,10 @@ body {
 }
 .slide-image {
   width: 100%;
-  height: 560px;
+  height: 580px;
 }
 .carousel-caption {
-  margin-bottom: 330px;
+  margin-bottom: 340px;
 }
 .carousel-caption p {
   float: left;
@@ -410,6 +410,10 @@ body {
   }
   .carousel-caption {
     margin-left: 70px;
+    margin-bottom: 480px;
+  }
+  .house-logo {
+    display: none;
   }
 }
 @media only screen and (min-width: 826px) and (max-width: 1015px) {
@@ -426,7 +430,7 @@ body {
     display: none;
   }
   .carousel-caption {
-    margin-bottom: 450px;
+    margin-bottom: 480px;
     display: flex;
     justify-content: center;
     width: 80%;
@@ -443,8 +447,11 @@ body {
   .slide-image {
     height: 400px;
   }
+  .three {
+    background-image: url('https://i.imgur.com/Z4jyiVM.jpg');
+  }
   .carousel-caption {
-    margin-bottom: 270px;
+    margin-bottom: 300px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -477,6 +484,9 @@ body {
     display: inline;
   }
 }
+@media only screen and(max-width: 700px) {
+  
+}
 @media only screen and (min-width: 576px) and (max-width: 766px) {
   .carousel-caption {
     margin-left: 60px;
@@ -491,6 +501,7 @@ body {
   }
   .carousel-caption {
     margin-left: 80px;
+    margin-bottom: 270px;
   }
   .contact-icon {
     display: none;
@@ -555,7 +566,8 @@ body {
 }
 @media only screen and (max-width: 431px){
   .nav a {
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 900;
   }
   .nav li {
     margin-right: 3px;

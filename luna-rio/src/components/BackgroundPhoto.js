@@ -18,21 +18,21 @@ const BackgroundPhoto = () => {
             <p><HouseLogo /></p>
             <Nav />
           </div>
-          <img className="d-block img-fluid slide-image" src="https://i.imgur.com/FJND0LI.jpg?1" alt="First slide"/>
+          <img className="d-block img-fluid slide-image one" src="https://i.imgur.com/nn22zYa.jpg" alt="First slide" />
         </div>
         <div className="carousel-item">
           <div className="carousel-caption">
             <p><HouseLogo /></p>
             <Nav />
           </div>
-          <img className="d-block img-fluid slide-image" src="https://i.imgur.com/zLJtsZt.jpg?1" alt="Second slide"/>
+          <img className="d-block img-fluid slide-image" src="https://i.imgur.com/kL1Dv2s.jpg" alt="Second slide"/>
         </div>
         <div className="carousel-item">
           <div className="carousel-caption">
             <p><HouseLogo /></p>
             <Nav />
           </div>
-          <img className="d-block img-fluid slide-image" src="https://i.imgur.com/i075k16.jpg?1" alt="Third slide"/>
+          <img className="three d-block img-fluid slide-image" src="https://i.imgur.com/rcYCmnc.jpg?1" alt="Third slide"/>
         </div>
       </div>
       <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
