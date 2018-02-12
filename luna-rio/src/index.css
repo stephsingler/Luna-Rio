@@ -47,6 +47,10 @@ body {
   height: 130px;
 }
 /*Carousel*/
+.carousel-item {
+  width: 100%;
+  height: auto;
+}
 .slide-image {
   width: 100%;
   height: 560px;
@@ -440,7 +444,7 @@ body {
     height: 400px;
   }
   .carousel-caption {
-    margin-bottom: 290px;
+    margin-bottom: 270px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -486,7 +490,6 @@ body {
     background-color: none;
   }
   .carousel-caption {
-    margin-bottom: 250px;
     margin-left: 80px;
   }
   .contact-icon {
@@ -539,7 +542,6 @@ body {
 @media only screen and (max-width: 450px) {
   .carousel-caption {
     margin-left: 90px;
-    margin-bottom: 270px;
   }
   .nav a {
     font-size: 14px;
