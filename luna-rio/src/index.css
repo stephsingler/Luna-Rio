@@ -485,7 +485,7 @@ body {
   }
 }
 @media only screen and(max-width: 700px) {
-  
+
 }
 @media only screen and (min-width: 576px) and (max-width: 766px) {
   .carousel-caption {
@@ -553,6 +553,7 @@ body {
 @media only screen and (max-width: 450px) {
   .carousel-caption {
     margin-left: 90px;
+    margin-bottom: 225px;
   }
   .nav a {
     font-size: 14px;
@@ -561,7 +562,7 @@ body {
     margin-right: 5px;
   }
   .slide-image {
-    height: 350px;
+    height: 300px;
   }
 }
 @media only screen and (max-width: 431px){
