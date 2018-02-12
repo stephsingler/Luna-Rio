@@ -259,6 +259,7 @@ body {
 /*Lifestyle Comp*/
 .lifestyle {
   background-image: url('./images/vintage-leaves.png');
+  height: auto;
 }
 .life {
   height: auto;

@@ -2,11 +2,11 @@ const testimonialObj = [
   {
     id: 0,
 
-    testimonial1: 'We spent my 60th birthday here and even though it got down in the 30s at night, it was really pleasant during the day! We enjoyed relaxing and eating. We loved the horseshoes and walking down the river. WE absolutely loved our time at this beautiful home. We cannot wait to come back!',
+    testimonial1: 'We spent my 60th birthday here, and even though it got down in the 30s at night, it was really pleasant during the day! We enjoyed relaxing and eating. We loved the horseshoes and walking down the river. WE absolutely loved our time at this beautiful home. We cannot wait to come back!',
 
     author1: 'The Ramirez Family from Houston, Texas',
 
-    testimonial2: 'We spent Christmas here with our families. We played fames, cooked in the fabulous kitchen, watched the river, walked and talked a lot, worked puzzles, avoided as many nerf gun wars as possible, enjoyed the town or Wimberley at Christmas time and attended Christmas Eve service in Buda. We love this house and had a wonderful time!',
+    testimonial2: 'We spent Christmas here with our families. We played games, cooked in the fabulous kitchen, watched the river, walked and talked a lot, worked on puzzles, avoided as many nerf gun wars as possible, enjoyed the town of Wimberley at Christmas time and attended Christmas Eve service in Buda. We love this house and had a wonderful time!',
 
     author2: 'The Shaeffer, Green and Pierson Families from Dallas, Austin & Houston, TX',
 
@@ -21,7 +21,7 @@ const testimonialObj = [
 
     author1: 'The Arnold Family from Dallas, Texas',
 
-    testimonial2: 'We hung out on the river in floats, shopped in the square, golfed, went to Jacob’s Well, the Blue Hole and mainly spent quality time with family. We loved have coffee on the porch every morning. THIS IS A LOVELY HOME! We really enjoyed our stay it was perfect for the family. We enjoyed a splash in the hot tub and sitting on the screen porch. We cannot wait to come back next year! Wimberley is so relaxing and beautiful…the perfect combination for rejuvenation.',
+    testimonial2: 'We hung out on the river in floats, shopped in the square, golfed, went to Jacob’s Well, the Blue Hole and mainly spent quality time with family. We loved having coffee on the porch every morning. THIS IS A LOVELY HOME! We really enjoyed our stay, it was perfect for the family. We enjoyed a splash in the hot tub and sitting on the screen porch. We cannot wait to come back next year! Wimberley is so relaxing and beautiful… the perfect combination for rejuvenation.',
 
     author2: 'The Gibbs Family from Fort Worth, Texas',
 
