@@ -78,7 +78,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
-  color:  /*black;*/ #fd8772;
+  color: #32636E;
   background-color: #f2f2f2;
   border-radius: 3px;
   text-shadow: 1px 1px 2px white;
@@ -87,6 +87,37 @@ body {
 .nav a:hover {
   color: gray;
   text-shadow: none;
+}
+/*HomeDescription */
+.page-section {
+  height: auto;
+}
+.cta {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #c2cad0;
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.cta-inner h6 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
 /*NavOptions Comp*/
 .nav-options {
@@ -334,6 +365,7 @@ body {
   height: 450px;
   border-radius: 3px;
   border: 2px solid white;
+  margin-bottom: 20px;
 }
 .dining-lists {
   width: 750px;

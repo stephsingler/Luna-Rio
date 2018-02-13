@@ -21,23 +21,23 @@ const shops = [
   },
   {
     id: 4,
-    name: "Becky's Sunberry Patch",
-    description: "Ladies apparel, sterling silver jewelry, Circle E candles, Sarah's Attic Collectibles, Greenhill music, LifeSighs cards, crosses, bath and body fragrances and gift items from Texas artists."
-  },
-  {
-    id: 5,
-    name: "Sante Fe Connection",
-    description: "Nestled under a 150 year old oak tree is the Santa Fe Connection. We offer jewelry, pottery, art glass, folk art & unusual gifts for everyone."
-  },
-  {
-    id: 6,
     name: "Kiss the Cook Kitchen Essentials",
     description: "Kiss The Cook is the finest and most complete kitchen store in the Hill Country. Bakeware, cookware, appliances, linens, aprons, cookbooks, hundreds of tools / gadgets."
   },
   {
-    id: 7,
+    id: 5,
     name: "Shop the Tree House",
     description: "Bohemian apparel and decor, rustic accents, unique furniture, vintage one-of-a-kind finds, and humorous and fun gifts."
   },
+  {
+    id: 6,
+    name: "Visit Wimberley",
+    description: "Check out VisitWimberley.com for more information on Shopping, Guides, Events, Wildlife, etc."
+  },
+  {
+    id: 7,
+    name: "Wimberley Market Days",
+    description: "Wimberley hosts the oldest outdoor market in the Texas Hill Country and the second-largest in the state. We feature over 475 booths of everything you can't live without. Come stroll our tree-shaded paths, listen to live music and shop to your heart's content. Open the 1st Saturday of the month March-December. From 7:00 AM -4:00 PM."
+  }
 ];
 export default shops;

@@ -21,7 +21,7 @@ class PropertyDetail extends Component {
               <Link to="/Gallery" style={{fontSize: '13px'}}>
                 Photo Gallery
               </Link> <br/>
-              <a target="_blank" href="http://www.seetheproperty.com/259574" style={{fontSize: "13px"}}>Property Virtual Tour!</a>
+              <a target="_blank" href="http://www.seetheproperty.com/259574" style={{fontSize: "13px"}}>Property Information & Tour!</a>
             </div>
             <img src={property.avatar} className="property-pic col-md-6 col-sm-12 col-xs-12 mx-auto" alt="" />
           </div>

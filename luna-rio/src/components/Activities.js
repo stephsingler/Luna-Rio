@@ -1,6 +1,9 @@
 import React from 'react';
 import '../index.css';
 import activities from '../data/activities';
+import spa from "../data/spa";
+import breweries from "../data/breweries";
+import theatre from "../data/theatre";
 //Components
 import Header from './Header';
 import Nav from './Nav';
@@ -15,15 +18,51 @@ const Activities = () => {
           <div className="activity" key={activity.id}>
             <p>
               <FaStar style={{color: 'goldenrod'}} size={14} /> &nbsp;
-              {activity.name} - {activity.description} &nbsp;
-              <a href={activity.website} target="_blank">View Website</a>
+              <a href={activity.website} target="_blank">{activity.name}</a> - {activity.description} &nbsp;
             </p>
           </div>
         );
       })
     );
   }
-  return (
+  const renderSpa = () => {
+    return (
+      <div className="activity">
+        <p>
+          <h6><strong>Massage & Spa</strong></h6>
+          <FaStar style={{color: 'goldenrod'}} size={14} /> &nbsp;
+          {spa.description} <a href={spa.website1} target="_blank">{spa.subtitle}</a> or <a href={spa.website2} target="_blank">{spa.subtitle2}</a> &nbsp;
+        </p>
+      </div>
+    );
+  }
+  const renderBreweries = () => {
+    return (
+      <div className = "activity">
+        <p>
+          <FaStar style={{color: 'goldenrod'}} size={14} /> &nbsp;
+          {breweries.title} - Wimberley is also home to the <a href={breweries.website1} target="_blank">{breweries.name1}</a>,
+          <a href={breweries.website2} target="_blank">{breweries.name2}</a>,
+          <a href={breweries.website3} target="_blank">{breweries.name3}</a>,
+          <a href={breweries.website4} target="_blank">{breweries.name4}</a>, and the <a href={breweries.website5} target="_blank">{breweries.name5}</a>, which is a rum distillery. Each of these places offers tastings and tours. If you would like someone else to do the driving contact <a href={breweries.website6} target="_blank">{breweries.name6}</a> to arrange a tour and activities throughout the beautiful Wimberley Valley.
+        </p>
+      </div>
+    );
+  }
+  const renderTheatre = () => {
+    return (
+      <div className="activity">
+        <p>
+          <h6><strong>Theatre</strong></h6>
+          <FaStar style={{color: 'goldenrod'}} size={14} /> &nbsp;
+          Many rural towns had outdoor movie theatres years ago. Wimberley still has one. The &nbsp;
+          <a href={theatre.website1} target="_blank">{theatre.name1}</a> features first run movies every Friday, Saturday and Sunday nights from Memorial Day through Labor Day. You can even bring your own chair. Call (512) 847-2513 or visit <a href={theatre.website1} target="_blank">{theatre.website1}</a> for shows and times. If you taste runs to live theatres, try <a href={theatre.website2} target="_blank">{theatre.name2}</a>, or the &nbsp;
+          <a href={theatre.website3} target="_blank">{theatre.name3}</a>, for year round theatrical events.
+        </p>
+      </div>
+    );
+  }
+   return (
     <div className="activities">
       <Header />
       <Nav />
@@ -33,7 +72,11 @@ const Activities = () => {
           <img src={require('../images/wine-tour.jpg')} className="img-left2" alt="" />
         </div>
         <div className="activity-lists">
+          {renderSpa()}
+          <h6><strong>Things To Do</strong></h6>
           {renderActivities()}
+          {renderBreweries()}
+          {renderTheatre()}
         </div>
       </div>
       <Footer />

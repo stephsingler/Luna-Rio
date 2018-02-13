@@ -18,6 +18,7 @@ const Dining = () => {
               <FaStar style={{color: 'goldenrod'}} size={14} /> &nbsp;
               {restaurant.name} - {restaurant.description} &nbsp;
               {restaurant.phone}
+              <p><a href={restaurant.website} target="_blank"> View Website</a></p>
             </p>
           </div>
         );
@@ -45,6 +46,7 @@ const Dining = () => {
       <div className="dining-container">
         <img src={require('../images/trattoria.png')} className="img-left" alt=" "/>
         <div className="dining-lists">
+          <h6><strong>Restaurants - Some of our favorites!</strong></h6>
           {renderDining()}
         </div>
       </div>

@@ -1,63 +1,39 @@
 const activities = [
   {
-    id: 0,
+    id: 1,
     name: "Blue Hole Regional Park",
-    description: " A Texas Treasure, and a destination in the Texas Hill Country for swimming, camping, and enjoying nature along spring-fed Cypress Creek, often being named one of Texas’ top ten swimming holes.",
+    description: " The park includes approximately 3.5 miles of trails, picnic areas, a community pavilion, playscape, basketball court, sand volleyball court, amphitheater, and the Blue Hole Swimming Area.  The entire park is open to visitors within the regular operating hours, however swimming is only allowed during the designated swimming season.",
     website: "http://www.cityofwimberley.com/index.asp?Type=B_BASIC&SEC=%7B1CDE9473-341C-496E-BD68-CED18B923848%7D&DE=%7B73216981-2826-4903-ADED-090ADBF499A6%7D"
   },
   {
-    id: 1,
-    name: "Jacob's Well",
-    description: "Jacob's Well is a perennial karstic spring in the Texas Hill Country flowing from the bed of Cypress Creek. ",
-    website: "http://www.visitwimberley.com/jacobswell/"
-  },
-  {
     id: 2,
-    name: "Bella Vista Ranch",
-    description: "Take a day to tour the only commercially producing olive grove and olive mill in the Hill Country. They have a winery, tasting room, and gift shop that offers gourmet foods, wines, oil, and jams.",
-    website: "https://www.texasoliveoil.com"
+    name: "Wimberley ZipLine Adventures",
+    description: "Prepare for highflying fun as you harness up and glide through the air on this thrilling, action packed zipline adventure. Experience a rush as you soar over canyons and creeks with breathtaking 15-mile views of the Wimberley Valley.",
+    website: "https://wimberleyzipline.com/index.html"
   },
   {
     id: 3,
-    name: "Rough Creek Lavender Fields",
-    description: "A working roping horse ranch and lavender fields, Rough Creek boasts to be the oldest and largest lavender farm in the Wimberley Valley.",
-    website: "http://www.roughcreeklavender.com"
+    name: "Jacob's Well Natural Area",
+    description: "The cool clear water here makes Jacob's Well a unique swimming destination in the Texas summer heat.",
+    website: "http://www.visitwimberley.com/jacobswell/"
   },
   {
     id: 4,
-    name: "Hill Country Wine Tours",
-    description: "While staying in Wimberley, venture into the “Wine Country of Texas” – just outside your doorstep!",
-    website: "http://discovertexaswine.com/what-does-a-tour-cost/"
+    name: "Driftwood Estate Winery",
+    description: "Driftwood Estate Winery sits on a bluff overlooking the Estate Vineyard and the Hill Country from which visitors can enjoy their award winning wines.",
+    website: "http://www.driftwoodwine.com/"
   },
   {
     id: 5,
-    name: "Driftwood Vineyards",
-    description: "See website for information on hours and directions.",
-    website: "https://www.driftwoodvineyards.com"
+    name: "Bella Vista Ranch",
+    description: "The Bella Vista Ranch is located in the hill country of Wimberley, Texas. Designed to reflect a traditional Italian family farm, the ranch is home to over 1,200 producing olive trees, seasonal fruit and vegetables, a frantoio (olive press), a winery, tasting room, and gift shop. Yes, we make 100% Texan olive oil!",
+    website: "https://www.texasoliveoil.com"
   },
   {
     id: 6,
-    name: "Tube of San Marcos",
-    description: "The San Marcos River is one of the most loved family recreation areas. The river creates an environment harmonizing nature and families.",
-    website: "http://www.tubesanmarcos.com"
-  },
-  {
-    id: 7,
-    name: "Golf--Quicksand @ Woodcreek Country Club",
-    description: "Woodcreek has both a 9 hole (Dancing Indian) and 18 hole (Eagle Rock) public course.",
-    website: "http://www.quicksandgolfcourse.com"
-  },
-  {
-    id: 8,
-    name: "Horseback Riding",
-    description: "Bel Canto Farms is a premier equestrian training facility offering full-service horse boarding, training and lessons in the beautiful Hill Country of Texas.",
-    website: "http://belcantofarms.com"
-  },
-  {
-    id: 9,
-    name: "Wimberley ZipLine Adventures",
-    description: "Once you hike up through the hills you will experience Texas Hill Country beauty as never before seen while soaring through a series of TEN zip line crossings.",
-    website: "https://wimberleyzipline.com/index.html"
+    name: "Rough Creek Lavender Fields",
+    description: "is located in the heart of the beautiful Texas Hill Country, just 7 miles NW of Wimberley on FM 2325. You may pick your own lavender from 5,000 lavender plants or shop in the on-site store. Herb classes, special events and tour buses are welcome when scheduled",
+    website: "http://www.roughcreeklavender.com"
   }
 ];
 export default activities;
