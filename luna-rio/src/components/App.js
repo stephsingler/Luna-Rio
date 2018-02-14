@@ -10,6 +10,7 @@ import Gallery from './Gallery';
 import Activities from './Activities';
 import Dining from './Dining';
 import Events from './Events'
+import EstateInformation from './EstateInformation';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path="/Activities" component={ Activities } />
             <Route path="/Dining" component={ Dining } />
             <Route path="/Events" component={ Events } />
+            <Route path="/EstateInformation" component={EstateInformation} />
           </div>
         </Router>
     );

@@ -17,11 +17,11 @@ class PropertyDetail extends Component {
               <p>{property.location}</p>
               <h6>BR: {property.bedrooms} | BA: {property.bathrooms} | Sleeps: {property.sleeps}</h6>
               <p>{property.description}</p>
-              <a href="https://www.homeaway.com/vacation-rental/p3718650" target="_blank">Learn More</a><br />
+              <a href="https://www.homeaway.com/vacation-rental/p3718650" target="_blank">Book Now</a><br />
               <Link to="/Gallery" style={{fontSize: '13px'}}>
                 Photo Gallery
               </Link> <br/>
-              <a target="_blank" href="http://www.seetheproperty.com/259574" style={{fontSize: "13px"}}>Property Information & Tour!</a>
+              <Link to="/EstateInformation" style={{fontSize: "13px"}}>Estate Information & Tour!</Link>
             </div>
             <img src={property.avatar} className="property-pic col-md-6 col-sm-12 col-xs-12 mx-auto" alt="" />
           </div>

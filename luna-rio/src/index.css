@@ -89,13 +89,11 @@ body {
   text-shadow: none;
 }
 /*HomeDescription */
-.page-section {
-  height: auto;
-}
 .cta {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #c2cad0;
+  background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
 }
 
 .cta .cta-inner {
@@ -272,21 +270,7 @@ body {
   margin-top: 20px;
   margin-bottom: 80px;
 }
-.tour-link {
-  text-align: center;
-  margin-top: 80px;
-}
-.tour-link a {
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  color: black;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px lightgray;
-}
-.tour-link a:hover {
-  color: gray;
-}
+
 /*Lifestyle Comp*/
 .lifestyle {
   background-image: url('./images/vintage-leaves.png');
@@ -393,6 +377,33 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
   padding: 15px;
   margin-top: 10px;
+}
+/*ESTATE INFO*/
+.estate-info {
+  height: auto;
+}
+.page-section {
+  height: auto;
+}
+.info {
+  line-height: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+.tour-link {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tour-link a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px lightgray;
+}
+.tour-link a:hover {
+  color: gray;
 }
 /*FOOTER*/
 #footer-top {
