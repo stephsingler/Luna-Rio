@@ -8,7 +8,7 @@ const HomeDescription = () => {
         <div className="row">
           <div className="col-xl-9 mx-auto">
             <div className="cta-inner">
-              <h6><strong>COMPLETELY UPDATED LUXURIOUSE ESTATE ON THE BLANCO RIVER</strong></h6>
+              <h6><strong>COMPLETELY UPDATED LUXURIOUS ESTATE ON THE BLANCO RIVER</strong></h6>
               <p className="mb-0 mission">
                 <p style={{textAlign: 'center'}}>
                   Located on 6 beautiful acres, 300 feet of River Front Footage, two hot-tubs and **COMING SOON - A NEW POOL!**
