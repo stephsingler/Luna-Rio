@@ -25,7 +25,7 @@ const propertyDetail = [
     location: "Wimberley, TX",
     bedrooms: 1,
     bathrooms: 1,
-    sleeps: 2-3,
+    sleeps: "2-3",
     description: "The Luna Rio Cabana is approximately 200 feet from the Luna Rio Main House and can be rented separately. The Luna Rio Cabana has been recently updated and has luxurious bedding with a queen bed and couch. There is ample seating in the living area, a small dining table, fully stocked kitchen and beautiful screen porch. The Luna Rio Cabana also has its own hot tub/spa. Please preview the photos of the Luna Rio Cabana below.",
     avatar: "https://i.imgur.com/nUx4Q26l.jpg"
   }
