@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../index.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 //Components
 import Home from './Home';
@@ -17,14 +17,19 @@ class App extends Component {
     return (
         <Router>
           <div className="app">
-            <Route exact path="/" component={ Home} />
-            <Route path="/Properties" component={ Properties } />
-            <Route path="/Lifestyle" component={ Lifestyle } />
-            <Route path="/Gallery" component={ Gallery } />
-            <Route path="/Activities" component={ Activities } />
-            <Route path="/Dining" component={ Dining } />
-            <Route path="/Events" component={ Events } />
-            <Route path="/EstateInformation" component={EstateInformation} />
+            <Switch>
+              <Route exact path="/" component={ Home} />
+              <Route path="/Properties" component={ Properties } />
+              <Route path="/Lifestyle" component={ Lifestyle } />
+              <Route path="/Gallery" component={ Gallery } />
+              <Route path="/Activities" component={ Activities } />
+              <Route path="/Dining" component={ Dining } />
+              <Route path="/Events" component={ Events } />
+              <Route path="/EstateInformation" component={ EstateInformation } />
+              <Route render={() => {
+                return <p>Page Not Found...</p>
+              }} />
+            </Switch>
           </div>
         </Router>
     );
