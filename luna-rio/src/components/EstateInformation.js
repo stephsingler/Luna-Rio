@@ -10,7 +10,7 @@ const EstateInformation = () => {
   return (
     <div className="estate-info">
       <Header />
-      <div className="page-section cta" style={{marginBottom: "-20px"}}>
+      <div className="cta" style={{marginBottom: "-20px"}}>
         <Nav /> <br/><br />
         <p className="tour-link">
           <a href="http://www.seetheproperty.com/259574" target="_blank">Take a Virtual Tour of the Estate!

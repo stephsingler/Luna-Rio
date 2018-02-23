@@ -270,7 +270,22 @@ body {
   margin-top: 20px;
   margin-bottom: 80px;
 }
-
+/*BookNow*/
+.page-section {
+  background-image: url("./images/abstract-leaves.png");
+  text-align: center;
+}
+.inner {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/white-texture.png");
+  border-radius: 3px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.inner a {
+  color: #32636E;
+  text-decoration: underline;
+}
 /*Lifestyle Comp*/
 .lifestyle {
   background-image: url('./images/vintage-leaves.png');

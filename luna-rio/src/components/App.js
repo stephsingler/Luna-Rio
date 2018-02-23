@@ -11,6 +11,7 @@ import Activities from './Activities';
 import Dining from './Dining';
 import Events from './Events'
 import EstateInformation from './EstateInformation';
+import BookNow from './BookNow';
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
               <Route path="/Dining" component={ Dining } />
               <Route path="/Events" component={ Events } />
               <Route path="/EstateInformation" component={ EstateInformation } />
+              <Route path="/BookNow" component={ BookNow } />
               <Route render={() => {
                 return <p>Page Not Found...</p>
               }} />
