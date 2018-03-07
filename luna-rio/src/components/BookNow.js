@@ -18,7 +18,7 @@ const BookNow = () => {
              <strong>
               {booking.title}
             </strong> &nbsp;
-            <FaStar style={{color: 'goldenrod'}} size={12} /> <br />
+            <FaStar style={{color: 'goldenrod'}} size={12} /> <br /><br/>
             <p>
               <a href={booking.url1} target="_blank">{booking.house1}</a>
             </p>
