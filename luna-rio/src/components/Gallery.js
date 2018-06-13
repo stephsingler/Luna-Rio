@@ -1,5 +1,4 @@
 import React from 'react';
-import photos from '../data/photos';
 import Paper from "material-ui/Paper";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 //Components
@@ -7,10 +6,10 @@ import Header from './Header';
 import Footer from './Footer';
 import Nav from './Nav';
 
-const Gallery = () => {
+const Gallery = props => {
   const renderPhotos = () => {
     return(
-      photos.map((photo) => {
+      props.photos.map((photo) => {
         return (
           <MuiThemeProvider key={photo.id}>
             <Paper zDepth={5} className="photo-container">

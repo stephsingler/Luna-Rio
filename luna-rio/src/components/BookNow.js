@@ -5,13 +5,11 @@ import Nav from './Nav';
 import Footer from './Footer';
 //UI
 import FaStar from "react-icons/lib/fa/star";
-//data
-import booknow from "../data/booknow";
 
-const BookNow = () => {
+const BookNow = props => {
   const renderBookings = () => {
     return (
-      booknow.map((booking) => {
+      props.booknow.map((booking) => {
         return (
           <p key={booking.id}>
             <FaStar style={{color: 'goldenrod'}} size={12} /> &nbsp;

@@ -1,16 +1,15 @@
 import React from 'react';
 import '../index.css';
-import events from '../data/events';
 //Components
 import Header from './Header';
 import Nav from './Nav';
 import Footer from './Footer';
 import FaStar from "react-icons/lib/fa/star";
 
-const Events = () => {
+const Events = props => {
   const renderEvents = () => {
     return (
-      events.map((event) => {
+      props.events.map((event) => {
         return (
           <div className="event" key={event.id}>
             <p>

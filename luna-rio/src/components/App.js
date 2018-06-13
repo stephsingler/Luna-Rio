@@ -6,12 +6,12 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import Properties from './Properties';
 import Lifestyle from './Lifestyle';
-import Gallery from './Gallery';
-import Activities from './Activities';
-import Dining from './Dining';
-import Events from './Events'
+import GalleryContainer from '../containers/GalleryContainer';
+import ActivitiesContainer from '../containers/ActivitiesContainer';
+import DiningContainer from '../containers/DiningContainer';
+import EventsContainer from '../containers/EventsContainer'
 import EstateInformation from './EstateInformation';
-import BookNow from './BookNow';
+import BookNowContainer from '../containers/BookNowContainer';
 
 class App extends Component {
   render() {
@@ -22,12 +22,12 @@ class App extends Component {
               <Route exact path="/" component={ Home} />
               <Route path="/Properties" component={ Properties } />
               <Route path="/Lifestyle" component={ Lifestyle } />
-              <Route path="/Gallery" component={ Gallery } />
-              <Route path="/Activities" component={ Activities } />
-              <Route path="/Dining" component={ Dining } />
-              <Route path="/Events" component={ Events } />
+              <Route path="/Gallery" component={ GalleryContainer } />
+              <Route path="/Activities" component={ ActivitiesContainer } />
+              <Route path="/Dining" component={ DiningContainer } />
+              <Route path="/Events" component={ EventsContainer } />
               <Route path="/EstateInformation" component={ EstateInformation } />
-              <Route path="/BookNow" component={ BookNow } />
+              <Route path="/BookNow" component={ BookNowContainer } />
               <Route render={() => {
                 return <p>Page Not Found...</p>
               }} />

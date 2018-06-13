@@ -4,7 +4,7 @@ import '../index.css';
 import Footer from './Footer';
 import Header from './Header';
 import BackgroundPhoto from './BackgroundPhoto';
-import PropertyDetail from './PropertyDetail';
+import PropertyDetailContainer from '../containers/PropertyDetailContainer';
 
 const Properties =  () => {
     return (
@@ -17,7 +17,7 @@ const Properties =  () => {
         <div className="container">
           <div className="row">
             <div className="property-list">
-              <PropertyDetail />
+              <PropertyDetailContainer />
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import '../index.css';
 //Components
 import Header from './Header';
-import Testimonial from './Testimonial';
+import TestimonialContainer from '../containers/TestimonialContainer';
 import Footer from './Footer';
 import BackgroundPhoto from "./BackgroundPhoto";
 import NavOptions from './NavOptions';
@@ -16,7 +16,7 @@ const Home = () => {
       <HomeDescription />
       <NavOptions />
       <div className="testimonials">
-        <Testimonial />
+        <TestimonialContainer />
       </div>
       <Footer />
     </div>

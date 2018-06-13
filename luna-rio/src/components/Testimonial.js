@@ -1,8 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
-import testimonialObj from '../data/testimonials';
 
-const Testimonial = (props) => {
+const Testimonial = props => {
   const settings = {
     dots: true,
     infinite: true,
@@ -13,7 +12,7 @@ const Testimonial = (props) => {
 
   const renderTestimonials = () => {
     return (
-      testimonialObj.map((testimonial) => {
+      props.testimonialObj.map((testimonial) => {
         return (
           <div className="testimonial-background" key={testimonial.id}>
             <div className="testimonial-container" style={{display: 'flex'}}>

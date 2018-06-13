@@ -1,17 +1,15 @@
 import React from 'react';
 import '../index.css';
-import restaurants from '../data/restaurants';
-import shops from '../data/shops';
 //Components
 import Header from './Header';
 import Nav from './Nav';
 import Footer from './Footer';
 import FaStar from "react-icons/lib/fa/star";
 
-const Dining = () => {
+const Dining = props => {
   const renderDining = () => {
     return (
-      restaurants.map((restaurant) => {
+      props.restaurants.map((restaurant) => {
         return (
           <div className="restaurant-list" key={restaurant.id}>
             <p>
@@ -27,7 +25,7 @@ const Dining = () => {
   }
   const renderShops = () => {
     return (
-      shops.map((shop) => {
+      props.shops.map((shop) => {
         return (
           <div className="restaurant-list" key={shop.id}>
             <p>
