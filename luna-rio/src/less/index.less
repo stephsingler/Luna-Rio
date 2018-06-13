@@ -1,0 +1,628 @@
+
+@min1016: ~ "only screen and (min-width: 1016px) and (max-width: 1050px)";
+@min826: ~ "only screen and (min-width: 826px) and (max-width: 1015px)";
+@max825: ~ "only screen and (max-width: 825px)";
+@max575: ~ "only screen and (max-width: 575px)";
+@max450: ~ "only screen and (max-width: 450px)";
+@max431: ~ "only screen and (max-width: 431px)";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*HEADER*/
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #272028;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+}
+.social-icon {
+  color: white;
+  font-size: 22px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.social-icon:hover {
+  color: #fd8772;
+}
+.contact-icon {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+  margin-top: 15px;
+  float: right;
+  @media @max575 {
+    display: none;
+  }
+}
+.contact-a {
+  color: lightgray;
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  font-size: 14px;
+  @media @max575 {
+    display: none;
+  }
+}
+.contact-a:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+/*Background Photo*/
+.house-logo {
+  margin-top: 30px;
+  z-index: .999;
+  float: left;
+  margin-left: 40px;
+  width: 220px;
+  height: 130px;
+  @media only screen and (max-width: 1050px) {
+    display: none;
+  }
+}
+/*Carousel*/
+.carousel-item {
+  width: 100%;
+  height: auto;
+}
+.slide-image {
+  width: 100%;
+  height: 580px;
+  @media @max825 {
+    height: 400px;
+  }
+  @media @max575 {
+    height: 350px;
+  }
+  @media @max450 {
+    height: 300px;
+  }
+}
+.carousel-caption {
+  margin-bottom: 340px;
+  @media @min1016 {
+    margin-left: 70px;
+    margin-bottom: 480px;
+  }
+  @media @min826 {
+    margin-bottom: 480px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 100px;
+  }
+  @media @max825 {
+    margin-bottom: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  @media only screen and (min-width: 576px) and (max-width: 766px) {
+    margin-left: 60px;
+  }
+  @media @max575 {
+    margin-left: 80px;
+    margin-bottom: 270px;
+  }
+  @media @max450 {
+    margin-left: 90px;
+    margin-bottom: 225px;
+  }
+  @media @max431 {
+    margin-left: 60px;
+  }
+}
+.carousel-caption p {
+  float: left;
+  margin-left: -240px;
+}
+.three {
+  @media @max825 {
+    background-image: url('https://i.imgur.com/Z4jyiVM.jpg');
+  }
+}
+/*NAV*/
+.nav {
+  display: flex;
+  list-style: none;
+  padding-top: 10px;
+  justify-content: center;
+  margin-right: 30px;
+  @media @max431 {
+    margin-left: 40px;
+  }
+  li {
+    margin-right: 20px;
+    @media @max575 {
+      background-color: none;
+    }
+    @media @max431 {
+      margin-right: 3px;
+    }
+  }
+  a {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #32636E;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    text-shadow: 1px 1px 2px white;
+    padding: 8px;
+    @media @min826 {
+      font-size: 16px;
+    }
+    @media @max825 {
+      font-size: 15px;
+    }
+    @media @max575 {
+      font-size: 13px;
+    }
+    @media @max450 {
+      font-size: 14px;
+      color: #32636E;
+      background-color: inherit;
+      margin-right: 5px;
+    }
+    @media @max431 {
+      font-size: 13px;
+      font-weight: 900;
+    }
+  }
+  a:hover {
+    color: gray;
+    text-shadow: none;
+  }
+}
+/*HomeDescription */
+.cta {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #c2cad0;
+  background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+}
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  h6 {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+  :before {
+    border-radius: 0.5rem;
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+    bottom: -0.5rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  }
+}
+/*NavOptions Comp*/
+.nav-options {
+  width: 100%;
+  height: auto;
+  padding-bottom: 60px;
+  background-color: #272028;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+}
+.nav-options-list {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 35px;
+  list-style: none;
+  li {
+    margin-right: 50px;
+  }
+  a {
+    font-family: "Open Sans", serif;
+    font-size: 28px;
+    color: #f2f2f2;
+    text-shadow: 1px 1px 5px black;
+    @media @max575 {
+      font-size: 22px;
+    }
+  }
+  a:hover {
+    color: #fd8772;
+    text-decoration: none;
+  }
+}
+.mui-paper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.nav-paper {
+  height: 300px;
+  width: 350px;
+  margin: 25px;
+  text-align: 'center';
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+/*Testimonials Comp */
+.testimonials {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  @media @max575 {
+    display: none;
+  }
+}
+.testimonial-container {
+  text-align: center;
+  margin-top: 4%;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #200000;
+  line-height: 1.4em;
+  text-shadow: 1px 1px 2px #d8d8d8;
+  padding-bottom: 20px;
+  @media @max825 {
+    font-size: 14px;
+  }
+}
+.single-testimonial {
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px;
+  h5 {
+    font-family: "Open Sans", serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #180000;
+    text-shadow: 2px 2px 4px lightgray;
+  }
+  @media @max825 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+.home {
+  background-image: url('../images/abstract-leaves.png');
+}
+/*Properties Comp*/
+
+#our-properties {
+  width: 100%;
+  height: 55px;
+  background-color: #272028;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  text-align: center;
+  p {
+    font-family: "Open Sans", serif;
+    font-size: 28px;
+    color: #f2f2f2;
+    padding-top: 5px;
+    text-shadow: 1px 1px 4px black;
+  }
+}
+.properties {
+  background-image: url('../images/blue-geo.png');
+}
+
+/*PropertyDetail Comp*/
+.property-detail {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.property-info {
+  /*float: left;*/
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 20px;
+  padding-bottom: 20px;
+  background-color: #f4f4f4;
+  opacity: .95;
+  h2 {
+    font-family: "Open Sans", serif;
+  }
+  h5 {
+    font-weight: bold;
+  }
+  a {
+    font-size: 16px;
+  }
+  a:hover {
+    color: #fd8772;
+  }
+  @media @min826 {
+    padding-top: 10px;
+    padding-bottom: 12px;
+  }
+  @media @max825 {
+    padding-top: 10px;
+    padding-bottom: 12px;
+  }
+}
+.property-pic {
+  height: 370px;
+  float: right;
+  margin-top: 50px;
+  border-radius: 3px;
+  @media @max575 {
+    height: 300px;
+  }
+}
+/*Gallery Comp */
+.gallery {
+  background-image: url('https://i.imgur.com/PFXYJlL.jpg');
+}
+.photo-container {
+  width: 400px;
+  height: 350px;
+  border-radius: 3px;
+  margin: 30px;
+  @media @max575 {
+    margin-bottom: 10px;
+  }
+}
+.photo {
+  width: 400px;
+  height: 350px;
+  border-radius: 3px;
+  border: 2px solid gray;
+  box-sizing: border-box;
+  @media @max575 {
+    border: none;
+  }
+}
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+/*BookNow*/
+.page-section {
+  background-image: url("../images/abstract-leaves.png");
+  text-align: center;
+}
+.inner {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/white-texture.png");
+  border-radius: 3px;
+  padding: 30px;
+  margin-bottom: 50px;
+  font-family: "Raleway", sans-serif;
+  a {
+    color: #32636E;
+    text-decoration: underline;
+  }
+}
+/*Lifestyle Comp*/
+.lifestyle {
+  background-image: url('../images/vintage-leaves.png');
+  height: auto;
+}
+.life {
+  height: auto;
+  padding-bottom: 80px;
+  margin-top: 30px;
+}
+.life-link {
+  text-decoration: none;
+}
+.nav-paper h4 {
+  text-align: center;
+  font-family: "Open sans", serif;
+  font-size: 26px;
+  color: gray;
+  margin-bottom: 8px;
+  text-shadow: 1px 1px 3px lightgray;
+  a {
+    text-decoration: none;
+  }
+  h4:hover {
+    color: #fd8772;
+  }
+}
+/*Activities Comp*/
+.activities {
+  background-image: url('../images/green-leaves.png');
+  width: 100%;
+  height: auto;
+}
+.activity {
+  font-size: 16px;
+}
+.activity-lists {
+  width: 750px;
+  height: auto;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+  padding: 10px;
+  margin-top: 10px;
+}
+.activity-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+.activity-images {
+  @media @max575 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.img-left2 {
+  width: 400px;
+  height: 300px;
+  border-radius: 3px;
+  border: 2px solid white;
+  margin-top: 10px;
+  display: block;
+  @media @min1016 {
+    width: 350px;
+    height: 300px;
+    display: inline;
+  }
+  @media @min826 {
+    width: 300px;
+    height: 240px;
+    display: inline;
+  }
+  @media @max825 {
+    width: 300px;
+    height: 240px;
+    display: inline;
+  }
+  @media @max575 {
+    width: 350px;
+    height: 250px;
+  }
+}
+/*Dining Comp*/
+.dining {
+  width: 100%;
+  height: auto;
+  background-image: url('../images/brown-vines.png');
+  background-repeat: repeat;
+}
+.dining-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  @media @max825 {
+    margin-top: 50px;
+  }
+}
+.img-left {
+  width: 550px;
+  height: 450px;
+  border-radius: 3px;
+  border: 2px solid white;
+  margin-bottom: 20px;
+  @media @max825 {
+    width: 470px;
+    height: 350px;
+    margin-bottom: 10px;
+  }
+  @media @max575 {
+    width: 370px;
+    height: 270px;
+    margin-bottom: 10px;
+  }
+}
+.dining-lists {
+  width: 750px;
+  height: auto;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+  padding: 5px;
+}
+.restaurant-list p {
+  font-weight: 400;
+}
+/*Events Comp*/
+.events {
+  background-image: url('../images/vintage-clouds.png');
+  width: 100%;
+  height: auto;
+}
+.event {
+  font-size: 16px;
+}
+.event-lists {
+  width: 650px;
+  height: 500px;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+  padding: 15px;
+  margin-top: 10px;
+  @media @max575 {
+    height: 590px;
+  }
+}
+.event-images {
+  @media @max575 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/*ESTATE INFO*/
+.estate-info {
+  height: auto;
+}
+.page-section {
+  height: auto;
+}
+.info {
+  line-height: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+.tour-link {
+  text-align: center;
+  margin-bottom: 20px;
+  a {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px lightgray;
+  }
+  a:hover {
+    color: gray;
+  }
+}
+/*FOOTER*/
+#footer-top {
+  width: 100%;
+  height: 50px;
+  background-color: #272028;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  text-align: center;
+  margin-top: 20px;
+}
+#footer-bottom {
+  width: 100%;
+  height: 150px;
+  background-color: #272028;
+  background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+  text-align: center;
+  color: white;
+  padding-top: 35px;
+  a {
+    color: lightgray;
+    margin-right: 25px;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+    color: lightgray;
+  }
+}
+.footer-contact-icon {
+  font-size: 20px;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer h5 {
+  margin-top: 45px;
+  font-size: 14px;
+}

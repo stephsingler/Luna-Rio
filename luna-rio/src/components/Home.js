@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+
 //Components
 import Header from './Header';
 import TestimonialContainer from '../containers/TestimonialContainer';
