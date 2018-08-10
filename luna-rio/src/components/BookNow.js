@@ -9,9 +9,9 @@ import FaStar from "react-icons/lib/fa/star";
 const BookNow = props => {
   const renderBookings = () => {
     return (
-      props.booknow.map((booking) => {
+      props.bookNow.map((booking) => {
         return (
-          <p key={booking.id}>
+          <div key={booking.id}>
             <FaStar style={{color: 'goldenrod'}} size={12} /> &nbsp;
              <strong>
               {booking.title}
@@ -23,7 +23,7 @@ const BookNow = props => {
             <p>
               <a href={booking.url2} target="_blank">{booking.house2}</a>
             </p>
-          </p>
+          </div>
         );
       })
     );
